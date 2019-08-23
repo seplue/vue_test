@@ -1,25 +1,27 @@
 <template>
   <div id="app">
+    <!--
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <MyFirstComponent></MyFirstComponent>
     <TodoItem>
 
     </TodoItem>
+    -->
+    <AxiosTest>
+
+    </AxiosTest>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import MyFirstComponent from "@/components/MyFirstComponent";
-import TodoItem from "@/components/TodoItem";
+
+import AxiosTest from "@/components/AxiosTest";
 
 export default {
   name: 'app',
   components: {
-    MyFirstComponent,
-    HelloWorld,
-    TodoItem
+    AxiosTest
   }
 }
 </script>
