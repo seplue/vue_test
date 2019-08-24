@@ -28,7 +28,6 @@
                 var app = this;
                 axios.get("http://ron-swanson-quotes.herokuapp.com/v2/quotes")
                     .then( function(response){
-                        console.log(response)
                         app.status = response.data[0];
                     })
                     .catch(function(error){
