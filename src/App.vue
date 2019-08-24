@@ -7,20 +7,26 @@
     <TodoItem>
 
     </TodoItem>
-    -->
+
     <AxiosTest>
 
     </AxiosTest>
+    -->
+    <AxiosBitcoin>
+
+    </AxiosBitcoin>
   </div>
 </template>
 
 <script>
 
 import AxiosTest from "@/components/AxiosTest";
+import AxiosBitcoin from "@/components/AxiosBitcoin";
 
 export default {
   name: 'app',
   components: {
+    AxiosBitcoin,
     AxiosTest
   }
 }
